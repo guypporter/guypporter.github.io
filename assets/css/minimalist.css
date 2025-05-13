@@ -1,5 +1,7 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,300,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600');
+
 
 /* HTML */
 html {
@@ -8,12 +10,12 @@ html {
 
 /* Body */
 body {
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Merriweather', sans-serif !important;
 }
 
 /* Header and Section */
 header, section {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 /* Anchors */
@@ -39,6 +41,13 @@ a:hover {
 
 /* Slasher Header */
 .blue-header {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #4055ce;
+}
+
+.org-title {
+  font-family: 'Open Sans';
   font-size: 16px;
   color: #4055ce;
 }
@@ -146,9 +155,9 @@ a:hover {
 }
 
 .timeline-content .timeline-span {
-  font-size: 20px;
+  font-size: 19px;
+  font-family: 'Open Sans';
   color: #4055ce;
-  font-style: italic;
 }
 
 .timeline-content .timeline-p {
