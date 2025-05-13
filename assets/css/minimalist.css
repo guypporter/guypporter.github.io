@@ -10,12 +10,16 @@ html {
 
 /* Body */
 body {
-  font-family: 'Merriweather', sans-serif !important;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 /* Header and Section */
 header, section {
   padding-top: 3rem;
+}
+
+h2 {
+  font-family: 'Merriweather'
 }
 
 /* Anchors */
@@ -116,6 +120,7 @@ a:hover {
   -moz-box-pack: justify;
   justify-content: space-between;
   clear: both;
+  text-align: left; /* Add this line to prevent justified text */
 }
 
 .timeline-block-right {
